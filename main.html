@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <style>
+        body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        text-align: center;
+        background-image: url('https://c0.wallpaperflare.com/path/121/661/300/book-bible-binding-pages-ae86c49c67b7b2e90fee7057c0bf1865.jpg');
+        background-size: cover;
+        background-position: center;
+        }
+
+        .container {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(199, 183, 163, 0.5); /* خلفية شفافة بنسبة 50% */
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgb(64, 50, 50);
+        position: relative; /* إضافة */
+        }
+
+        #university-logo {
+        width: 200px;
+        height: auto;
+        top: 10px;
+        left: 10px;
+        }
+
+        .button {
+        padding: 13px 20px;
+        margin: 10px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold; /* زخرفة الخط */
+        background-color: #7E6363;
+        color: #161616;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        }
+        .start {
+        font-size: 36px; /* تحديد حجم الخط */
+        color: #161616; /* لون النص */
+        font-family: "Bebas Neue", sans-serif;; /* نوع الخط */
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        }
+
+        .pp {
+        font-size: 24px; /* تحديد حجم الخط */
+        color: #000000; /* لون النص */
+        font-family: "Bebas Neue", sans-serif;; /* نوع الخط */
+        }
+
+        .button:hover {
+            background-color: #7E6363;
+        }
+    </style>
+    <title>College Supject</title>
+</head>
+<body>
+
+<div class="container">
+    <img id="university-logo" src="C:\Users\CRIZMA MEGA STORE\Downloads\pro\img\logo.png" alt="شعار جامعة المنصورة">
+    <h1 class="start">Welcome to Mansoura University</h1>
+    <p class="pp">Chose your level</p>
+
+
+<div class="button-container">
+    <div>
+    <button class="button" onclick="showNewButtons()">level One</button>
+    <button class="button" onclick="showNewButtons()">level Two</button>
+    <button class="button" onclick="showNewButtons()">Level Three</button>
+    <button class="button" onclick="showNewButtons()">Level Four</button>
+    </div>
+</div>
+
+</body>
+</html>
